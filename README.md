@@ -8,3 +8,4 @@ Programming in Python
 - Linked List
 - Stacks
 - Queues
+- MaxHeap and MinHeap
