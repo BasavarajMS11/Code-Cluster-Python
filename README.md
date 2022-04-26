@@ -5,5 +5,6 @@ Programming in Python
 - Input/Output
 - Bitwise operations
 - Number theory
+- Linked List
 - Stacks
 - Queues
