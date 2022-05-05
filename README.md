@@ -5,7 +5,7 @@ Programming in Python
 - Input/Output
 - Bitwise operations
 - Number theory
-- Linked List
+- Linked List - Singly, Doubly, Circular
 - Stacks
 - Queues
 - MaxHeap and MinHeap
