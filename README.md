@@ -3,7 +3,7 @@ Programming in Python
 - Basic DS - Lists, Dictionaries, Sets, Tuples
 - List Comprehensions
 - Input/Output
-- Bitwise operations 
+- Bitwise operations
 - Number theory
 - Linked List - Singly, Doubly, Circular
 - Stacks
