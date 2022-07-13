@@ -20,7 +20,7 @@ Node class
 -has members next_node and prev_node(for doubly)
 
 Linked List Class:
-Has 2 attributes - root
+Has 2 attributes - root, size
 Methods - Add, Remove, Find, Print
 '''
 
