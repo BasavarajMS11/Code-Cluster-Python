@@ -17,7 +17,7 @@ print_list()
 
 Node class
 -has constructor and sets data
--has members next_node and prev_node(for doubly)
+-has members data, next_node and prev_node(for doubly)
 
 Linked List Class:
 Has 2 attributes - root, size
