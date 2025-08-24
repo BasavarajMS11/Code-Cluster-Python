@@ -1,4 +1,4 @@
-'''
+"""
 Finding all primes upto N in O(N*log(log(N)))
 Seive of eratosthenes
 
@@ -15,23 +15,25 @@ n=50
 31 37
 41 43 47
 
-'''
+"""
 
 from math import *
 
+
 def generateprimes(n):
-    primes=[True]*(n+1)
-    primes[0]=False #0 is not prime
-    primes[1]=False
-    for i in range(2,int(sqrt(n))+1):
+    primes = [True] * (n + 1)
+    primes[0] = False  # 0 is not prime
+    primes[1] = False
+    for i in range(2, int(sqrt(n)) + 1):
         if primes[i] == True:
-            for i in range(i*i, n+1,i):
-                primes[i]=False
+            for i in range(i * i, n + 1, i):
+                primes[i] = False
     for i in range(0, len(primes)):
         if primes[i] == True:
-            print(i,end=" ")  
+            print(i, end=" ")
 
-T=int(input())
+
+T = int(input())
 for i in range(T):
-    N=int(input())
+    N = int(input())
     generateprimes(N)
